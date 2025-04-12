@@ -1,6 +1,6 @@
 services:
   cloudberry:
-    image: cloudberry-ubuntu:latest
+    image: misterraindrop/cloudberry:latest
     volumes:
       - /Users/liuxiaoyu/liuxiaoyu/github/cloudberry-docker/code/cloudberry:/code
     working_dir: /code
