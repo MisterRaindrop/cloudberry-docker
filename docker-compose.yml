@@ -1,0 +1,11 @@
+services:
+  cloudberry:
+    image: cloudberry-ubuntu:latest
+    volumes:
+      - /Users/liuxiaoyu/liuxiaoyu/github/cloudberry-docker/code/cloudberry:/code
+    working_dir: /code
+    user: gpadmin
+    command: >
+      /bin/bash -c "
+        tail -f /dev/null
+      "
